@@ -1,0 +1,21 @@
+body 
+{
+	background-color: aliceblue;
+}
+
+.siteTitle
+{
+	background-image: linear-gradient(0deg, aliceblue, skyblue, #005AA7);
+	padding-bottom: 10px;
+	text-shadow: white 1px 1px;
+}
+
+.navBackground 
+{
+	background-color: lightgreen;
+	border-radius: 5px;
+}
+.navBackground:hover 
+{
+	background-color: limegreen;
+}
