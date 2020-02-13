@@ -16,7 +16,7 @@ var loadInfo = async function()
 		if (!response.ok) {
 			throw new Error('Network response was not ok');
 		}
-		return response.about();
+		return response.about;
 	})
 	.then((aboutText) => {
 		console.log(aboutText);
