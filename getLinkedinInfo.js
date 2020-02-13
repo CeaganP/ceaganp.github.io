@@ -8,9 +8,7 @@ var loadInfo = async function()
 	
 	await fetch('getAboutContent.php', {
 		method: 'GET',
-		mode: 'cors',
-		headers: {'Content-Type' : 'application/json'},
-		params: JSON.stringify(data)
+		params: (data)
 	})
 	.then((response) => {
 		if (!response.ok) {
