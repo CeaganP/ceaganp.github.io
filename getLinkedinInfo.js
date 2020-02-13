@@ -1,12 +1,12 @@
-document.addEventListener('load', loadInfo);
+$(document).ready(loadInfo);
 
-var loadInfo = async function()
+function loadInfo()
 {
 	console.log("ATTEMPTING TO LOAD ABOUT");
 	//get the linkedin profile link from the NAV
 	var data = document.getElementById('linkedin').href;
 	
-	await fetch('getAboutContent.php', {
+	fetch('getAboutContent.php', {
 		method: 'GET',
 		params: (data)
 	})
