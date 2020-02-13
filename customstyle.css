@@ -1,21 +1,55 @@
-body 
-{
-	background-color: aliceblue;
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+	position: relative;
+	min-height: 100%;
 }
 
-.siteTitle
+html, main, body
 {
-	background-image: linear-gradient(0deg, aliceblue, skyblue, #005AA7);
-	padding-bottom: 10px;
-	text-shadow: white 1px 1px;
+	background-color: #DBD4D3;
+}
+	
+body {
+	/* Margin bottom by footer height */
+	margin-bottom: 60px;
+}
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 50px;
+	line-height: 50px; /* Vertically center the text there */
+	background-color: #f5f5f5;
 }
 
-.navBackground 
+.navbar 
 {
-	background-color: lightgreen;
-	border-radius: 5px;
+	background-color: #CC2936;
 }
-.navBackground:hover 
+
+.download-btn
 {
-	background-color: limegreen;
+	background-color: #90C290;
+	color: #54428E;    
+	box-shadow: grey 1px 1px 1px;
+}
+.download-btn:hover
+{
+	background-color: #92B290;	
+}
+
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
 }
