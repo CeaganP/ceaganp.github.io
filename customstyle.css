@@ -29,6 +29,12 @@ body {
 	background-color: #CC2936;
 }
 
+.portraitAlign 
+{
+	float: left;
+}
+
+
 .download-btn
 {
 	background-color: #90C290;
