@@ -32,11 +32,7 @@ body {
 
 .portraitAlign 
 {
-	float: left;
-}
-.portraitContainer
-{
-	clear: both;
+	display: inline;
 }
 
 
