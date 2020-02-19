@@ -29,9 +29,14 @@ body {
 	background-color: #CC2936;
 }
 
+
 .portraitAlign 
 {
 	float: left;
+}
+.portraitContainer
+{
+	clear: both;
 }
 
 
