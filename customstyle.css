@@ -28,7 +28,10 @@ body {
 {
 	background-color: #CC2936;
 }
-
+.portrait {
+	width: 128px;
+	height: 128px;
+}
 .portraitAlign 
 {
 	display: inline;
@@ -39,6 +42,8 @@ body {
 	background-color: #90C290;
 	color: #54428E;    
 	box-shadow: grey 1px 1px 1px;
+	display: block;
+	margin: 3px;
 }
 .download-btn:hover
 {
